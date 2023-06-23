@@ -1,0 +1,11 @@
+.cruzeiro-add-modal-content {
+  @media (max-width: 1000px) {
+    > div:first-child {
+      flex-direction: column;
+
+      > div {
+        width: 100% !important;
+      }
+    }
+  }
+}
